@@ -34,7 +34,7 @@ ytmusic-pivot-bar-item-renderer {
 /* move up item selection renderers */
 ytmusic-item-section-renderer.stuck #header.ytmusic-item-section-renderer,
 ytmusic-tabs.stuck {
-	top: calc(var(--ytmusic-nav-bar-height) - 15px) !important;
+	top: calc(var(--ytmusic-nav-bar-height) - 30px) !important;
 }
 
 /* fix weird positioning in search screen*/
