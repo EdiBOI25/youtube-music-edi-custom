@@ -111,6 +111,8 @@ function changeColor() {
 			changeElementColor(sidebarBig, hue, saturation, 15);
 			if (ytmusicAppLayout.hasAttribute('player-page-open'))
 				changeElementColor(sidebarSmall, hue, saturation, 30);
+			const ytRightClickList = document.querySelector("tp-yt-paper-listbox");
+			changeElementColor(ytRightClickList, hue, saturation, 15);
 
 		} else {
 			playerPage.style.backgroundColor = "#000000";
