@@ -67,7 +67,7 @@ const ytmusicAppLayout = document.querySelector("#layout");
 
 var [hue, saturation, lightness] = [0,0,0];
 
-songImageElement.style.filter = "drop-shadow(0 0 3rem black)";
+//songImageElement.style.filter = "drop-shadow(0 0 3rem black)";
 
 function changeElementColor(element, hue, saturation, lightness){
 	element.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
