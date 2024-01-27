@@ -38,3 +38,18 @@
 
   pointer-events: none;
 }
+
+/*Makes ambiend light cover the small sidebar*/
+#mini-guide-background {
+  z-index: 2 !important;
+}
+
+/*Ambient light doesn't cover certain parts of right side panel (queue, lyrics)*/
+.container-name.style-scope.ytmusic-queue-header-renderer {
+  z-index: 4 !important;
+}
+
+.non-expandable.description.style-scope.ytmusic-description-shelf-renderer {
+  z-index: 4 !important;
+  position: relative !important;
+}
